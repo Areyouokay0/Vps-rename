@@ -1,6 +1,6 @@
 import os
 
-class Config(object):
+class config(object):
 
     # get a token from @BotFather
     TG_BOT_TOKEN = os.environ.get("TG_BOT_TOKEN", "5951942864:AAHHsn9GLXHw1LoLHaHr98fG_AklMKgpKU8")
